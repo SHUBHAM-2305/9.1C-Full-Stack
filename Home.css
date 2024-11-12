@@ -1,0 +1,91 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+.search-icon {
+  margin-left: -30px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.login-button, .signup-button, .logout-button {
+  background-color: #fff;
+  color: #6a11cb;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-button:hover, .signup-button:hover, .logout-button:hover {
+  background-color: #6a11cb;
+  color: white;
+  transform: scale(1.05);
+}
+
+.success-message {
+  background-color: #4caf50; /* Success green color */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
